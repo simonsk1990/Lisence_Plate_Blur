@@ -15,6 +15,9 @@ img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 
 #DETECT PLATE
 plate_cascade = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml')
+#using off the shelf haarcascade classifiers
+
+#plotting
 plt.subplot(1,2,1)
 detected_img = plate_detect(img, plate_cascade)
 plt.imshow(detected_img)
