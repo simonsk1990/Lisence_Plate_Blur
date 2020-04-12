@@ -1,4 +1,5 @@
 ## This algorithm can be run real-time with a webcam and will blur all detected lisence plates.
 ## For demo demonstrations we will use a dashcham photo to show the algorithm steps
 ## See results in png fike
-## More info under .py
+## More info under .py scripts
+##NOTE: import packages must be installed prior running python script
